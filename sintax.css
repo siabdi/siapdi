@@ -1,0 +1,14 @@
+/* syntax highlighter Otomatis */
+pre{padding:.8em 1em;margin:0.5em 0;background-color:#011B35;border:1px solid #ddd;font-size:13px;color:#000;font-family:Consolas,Monaco,'Andale Mono','Courier New',Courier,Monospace;line-height:1.4em;position:relative;white-space:pre-wrap;word-wrap:break-word;overflow:auto;max-height:200px}
+code{font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,Monospace;font-size:13px;color:#d14}
+pre code{padding:0!important;color:#839496;background:none!important;border:none!important;display:block}
+pre .comment,pre .template_comment,pre .diff .header,pre .doctype,pre .pi,pre .lisp .string,pre .javadoc{color:#FFF8DC;font-style:italic}
+pre .keyword,pre .winutils,pre .method,pre .addition,pre .css .tag,pre .request,pre .status,pre .nginx .title{color:#F5821E}
+pre .number,pre .command,pre .string,pre .tag .value,pre .rules .value,pre .phpdoc,pre .tex .formula,pre .regexp,pre .hexcolor{color:#008800}
+pre .title,pre .localvars,pre .chunk,pre .decorator,pre .built_in,pre .identifier,pre .vhdl .literal,pre .id,pre .css .function{color:#268bd2}
+pre .attribute,pre .variable,pre .lisp .body,pre .smalltalk .number,pre .constant,pre .class .title,pre .parent,pre .haskell .type{color:#990099}
+pre .preprocessor,pre .preprocessor .keyword,pre .shebang,pre .symbol,pre .symbol .string,pre .diff .change,pre .special,pre .attr_selector,pre .important,pre .subst,pre .cdata,pre .clojure .title,pre .css .pseudo{color:#FF0000;font-weight:bold}
+pre .deletion{color:#dc322f}
+pre .tex .formula{background:#eee8d5}
+.fbbox-comments{ display:none;} 
+#blog-pager{margin:1em 0;text-align:center;overflow:hidden;font-weight:700;font-size:16px;padding:10px;background-color:#555}
